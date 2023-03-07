@@ -1,4 +1,3 @@
-# 第1周 作业1<br><br>
 ## 1. 安装Metamask并创建钱包<br>
 address = 0xf7ce0e442f3e4f849472cb04ffa9802d4ec16ea9<br>
 
