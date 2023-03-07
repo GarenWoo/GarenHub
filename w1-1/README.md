@@ -20,6 +20,29 @@ To: 0x334e4C7Fd7B7805707fD915099C07957ED0C4d4C<br>
 
 ![w1-1](3_Screenshot_Transaction_Details.png)<br><br>
 
-## 5. 使用remix创建Counter合约并部署，添加add(x)方法<br>
+## 5. 使用remix创建Counter合约，添加add(x)方法，编译并部署合约<br>
+
+``` solidity
+
+//SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract Counter {
+    uint public counter;
+
+    constructor() {
+        counter = 0;
+    }
+
+    function count() public {
+        counter = counter + 1;
+    }
+
+    function add(uint x) public {
+        counter += x;
+    }
+}
+``` 
+
 
 ![w1-1](4_Screenshot_Contract_Codes_Remix.png)<br><br>
