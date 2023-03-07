@@ -1,7 +1,7 @@
 ## 1. 安装Metamask并创建钱包<br>
 address = 0xf7ce0e442f3e4f849472cb04ffa9802d4ec16ea9<br>
 
-![w1-1](1_Screenshot1_Metamask_Installed.png)<br><br>
+![w1-1](1_Screenshot_Metamask_Installed.png)<br><br>
 
 ## 2. 执行一次转账<br>
 
