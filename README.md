@@ -1,3 +1,3 @@
 # GarenHub
-This is a new Github of Garen for submitting homeworks settled by DengLian-Blockchain-Camp Season 2
-
+This is the repository used for submitting homeworks settled in Upchaincamp Season 2.
+Welcome teaching assistants to check my homeworks. 
