@@ -11,3 +11,17 @@
 ![w2-1](IMG_Verified_Browser2.png)<br><br>
 
 URL: https://mumbai.polygonscan.com/address/0x401fdf8447515f5601CEA9edc0202fd5174dA7Ca#code
+
+## 3. 存钱（使用Metamask）<br>
+
+![w2-1](IMG_Deposit_In_Bank_Via_Metamask.png)<br><br>
+
+到账：
+
+![w2-1](IMG_Deposit_Done.png)<br><br>
+
+## 4. 取钱<br>
+![w2-1](IMG_Withdraw.png)<br><br>
+
+取钱完成：
+![w2-1](IMG_Withdraw_done.png)<br><br>
