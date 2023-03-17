@@ -1,13 +1,14 @@
-# Sample Hardhat Project
+## 1. 合约代码的编译、部署、测试<br>
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+使用hardhat将合约编译、部署和测试，分别如下三张截图所示：<br>
 
-Try running some of the following tasks:
+![w2-1](IMG_Compile.png)<br><br>
+![w2-1](IMG_Deploy_Mumbai.png)<br><br>
+![w2-1](IMG_Test.png)<br><br>
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+## 2. 代码验证和开源<br>
+
+![w2-1](IMG_Verification.png)<br><br>
+![w2-1](IMG_Verified_Browser.png)<br><br>
+
+URL: https://mumbai.polygonscan.com/address/0x082f5Fc6349b91b8105C978F51719930718b48CB#code
