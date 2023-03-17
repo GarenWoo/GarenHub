@@ -47,22 +47,3 @@ contract Bank {
     }
 
 }
-contract Pay {
-    constructor () payable {               
-
-    }
-    receive() external payable {
-      
-    }
-    function pay(address _to, uint256 _value) payable public {
-        (bool success,) = _to.call{value : _value}(new bytes(0));
-        require(success, "transfer failed");
-    }
-
-    function withdraw(Bank b, uint256 _value) public  {
-        b.withdraw( _value);
-    }
-    function withdrawall(Bank b) public  {
-        b.withdrawAll();
-    }
-}
