@@ -8,7 +8,6 @@
 
 ## 2. 代码验证浏览器页面<br>
 
-![w2-1](IMG_Verification2.png)<br><br>
 ![w2-1](IMG_Verified_Browser2.png)<br><br>
 
 URL: https://mumbai.polygonscan.com/address/0x401fdf8447515f5601CEA9edc0202fd5174dA7Ca#code
