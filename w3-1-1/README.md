@@ -114,14 +114,14 @@ contract Vault {
 
 
 ![w3-1-1](./IMG/IMG_Compile&DeployOnSepolia&Verification.png)<br><br>
-![w3-1-1](./image/IMG_Test.png)<br><br>
-![w3-1-1](./image/IMG_Deployed&Verified_Browser_ERC20TokenGTT.png)<br><br>
-![w3-1-1](./image/IMG_Deployed&Verified_Browser_Vault.png)<br><br>
+![w3-1-1](./IMG/IMG_Test.png)<br><br>
+![w3-1-1](./IMG/IMG_Deployed&Verified_Browser_ERC20TokenGTT.png)<br><br>
+![w3-1-1](./IMG/IMG_Deployed&Verified_Browser_Vault.png)<br><br>
 
 ERC20TokenGTT合约: https://sepolia.etherscan.io/address/0x1bfbF460386f41f72CE7cd661E7D0ECb6289D25c#code<br>
 Vault合约: https://sepolia.etherscan.io/address/0xE9464C9935639b23dcC25A92B58f6f6139B1c36C#code<br>
 
-## 3. Garen Test Token(GTT) on Etherscan(sepolia)
+## 4. Garen Test Token(GTT) on Etherscan(sepolia)
 
 ![w3-1-1](./IMG/IMG_GarenTestToken_on_Etherscan(Sepolia).png)<br><br>
 
