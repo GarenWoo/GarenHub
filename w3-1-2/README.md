@@ -123,12 +123,12 @@ Json IPFS URL: ipfs://QmSz3n347TdH8nNEXfTrjB3oApUfzN3FGX8gUniGV21C4v
 ![w3-1-2](./IMG/5_Verification_NFTMarket_Goerli.png)<br>
 ![w3-1-2](./IMG/ERC721Token_GoerliScan.png)<br>
 ![w3-1-2](./IMG/NFTMarket_GoerliScan.png)<br>
-测试：
+测试：<br><br>
 ![w3-1-2](./IMG/IMG_Test.png)<br>
 
 ## 4. 在 Opensea 上查看铸造的NFT
-Json IPFS URL: ipfs://QmSz3n347TdH8nNEXfTrjB3oApUfzN3FGX8gUniGV21C4v
-NFT: 
+Json IPFS URL: ipfs://QmSz3n347TdH8nNEXfTrjB3oApUfzN3FGX8gUniGV21C4v<br><br>
+NFT: <br>
 ![w3-1-2](./IMG/NFT_On_OpenSeaTestnet.png)<br>
 
 
