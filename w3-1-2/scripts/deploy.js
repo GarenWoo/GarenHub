@@ -7,8 +7,8 @@
 const hre = require("hardhat");
 
 async function main() {
-    // ERC20TokenGTT has already been deployed on Sepolia at 0x1bfbF460386f41f72CE7cd661E7D0ECb6289D25c
-    const ERC20TokenAddr = "0x1bfbF460386f41f72CE7cd661E7D0ECb6289D25c"
+    // ERC20TokenGTT has already been deployed on Goerli at 0xf29Da8b25afA9dB70542416E948597A0be57eC23
+    const ERC20TokenAddr = "0xf29Da8b25afA9dB70542416E948597A0be57eC23"
 
     const ERC721TokenContract = await hre.ethers.getContractFactory("ERC721Token")
     const ERC721Token = await ERC721TokenContract.deploy();
