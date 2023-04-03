@@ -117,19 +117,19 @@ contract NFTMarket is IERC721Receiver {
 ERC721Token: Garen's Collection(GCN), network = Goerli<br>
 Json IPFS URL: ipfs://QmSz3n347TdH8nNEXfTrjB3oApUfzN3FGX8gUniGV21C4v
 <br><br>
-![w3-1-2](./IMG/2_ERC721Token_Deploy_Goerli.png)<br>
+![w3-1-2](./IMG/2_ERC721Token_Deploy_Goerli.png)<br><br>
 ![w3-1-2](./IMG/3_Verification_ERC721Token_Goerli.png)<br><br>
-![w3-1-2](./IMG/4_NFTMarket_Deploy_Goerli.png)<br>
-![w3-1-2](./IMG/5_Verification_NFTMarket_Goerli.png)<br>
-![w3-1-2](./IMG/ERC721Token_GoerliScan.png)<br>
-![w3-1-2](./IMG/NFTMarket_GoerliScan.png)<br>
-测试：<br><br>
-![w3-1-2](./IMG/IMG_Test.png)<br>
+![w3-1-2](./IMG/4_NFTMarket_Deploy_Goerli.png)<br><br>
+![w3-1-2](./IMG/5_Verification_NFTMarket_Goerli.png)<br><br>
+![w3-1-2](./IMG/ERC721Token_GoerliScan.png)<br><br>
+![w3-1-2](./IMG/NFTMarket_GoerliScan.png)<br><br>
+测试：<br>
+![w3-1-2](./IMG/IMG_Test.png)
 
-## 4. 在 Opensea 上查看铸造的NFT
+## 4. 在 OpenSea 上查看铸造的NFT
 Json IPFS URL: ipfs://QmSz3n347TdH8nNEXfTrjB3oApUfzN3FGX8gUniGV21C4v<br><br>
-NFT: <br>
-![w3-1-2](./IMG/NFT_On_OpenSeaTestnet.png)<br>
+NFT on OpenSea Testnet: <br><br>
+![w3-1-2](./IMG/NFT_On_OpenSeaTestnet.png)
 
 
 
