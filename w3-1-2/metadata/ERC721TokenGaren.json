@@ -1,0 +1,24 @@
+{
+    "title": "Garen",
+    "description": "Garen's cyberpunk-style avatar",
+    "image": "ipfs://QmYo7wXvZtELyJUMqqk7MfveBkrJwxUYDi1wd6UPaMHutM",
+    "attributes": [
+        {
+            "trait_type": "Release number of Garen-related NFT",
+            "value": "001"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Cyberpunk"
+        },
+        {
+            "trait_type": "Wear",
+            "value": "Black Leather Jacket"
+        },
+        {
+            "trait_type": "Accessories",
+            "value": "Sunglasses"
+        }
+    ],
+    "version": "1"
+}
