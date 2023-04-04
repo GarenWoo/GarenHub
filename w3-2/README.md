@@ -1,6 +1,6 @@
 # 第三周第二次课作业
 
-部署一个可升级的 ERC20 Token<br><br>
+部署一个可升级的 ERC20 Token<br>
 - 第一版本<br>
 - 第二版本，加入方法: function transferWithCallback(address recipient, uint256amount) external returns (bool)<br>
 
@@ -91,7 +91,7 @@ import "@openzeppelin/contracts/utils/Address.sol";
 interface TokenRecipient {
     function tokensReceived(address sender, uint amount) external returns (bool);
 }
-
+/*
 contract ReentrancyGuard {
 
     uint256 private constant _NOT_ENTERED = 1;
@@ -114,7 +114,7 @@ contract ReentrancyGuard {
         _status = _NOT_ENTERED;
     }
 }
-
+*/
 contract ERC20TokenV2 is ERC20Upgradeable, ReentrancyGuardUpgradeable {
     using Address for address;
 
