@@ -64,5 +64,5 @@ https://sepolia.etherscan.io/address/0x545C9f39874f069b735de7e83a84efdF73320DE3<
 结果如下：<br>
 ![w4-1-1](./contract/IMG/DeployedOnSepolia/6b_withdraw_result.png)<br>
 
-----------------------------  END  ---------------------------------------
+-------------------------------------------  END  -------------------------------------------
 
