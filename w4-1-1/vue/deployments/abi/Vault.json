@@ -1,0 +1,13 @@
+[
+  "constructor(address)",
+  "error NotSpecifiedToken()",
+  "error TransactionFailed()",
+  "function balance(address) view returns (uint256)",
+  "function deposit(uint256)",
+  "function getBankBalance(address) view returns (uint256)",
+  "function getTokenOwned(address) view returns (uint256)",
+  "function permitDeposit(uint256,uint256,uint8,bytes32,bytes32)",
+  "function token() view returns (address)",
+  "function tokensReceived(address,uint256) returns (bool)",
+  "function withdraw(uint256)"
+]
