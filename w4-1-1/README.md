@@ -16,7 +16,7 @@ https://sepolia.etherscan.io/address/0x545C9f39874f069b735de7e83a84efdF73320DE3<
 ## 2 前端页面连接钱包
 
 两个账户：<br>
-账户1（ERC20TokenGTT部署者）：0x545383E5263D519B086C4e37964413e1bA17D756<br>
+账户1（部署者）：0x545383E5263D519B086C4e37964413e1bA17D756<br>
 账户2：0x41042630a3c4b91e946dE7A36871E950C9F9cFf4<br>
 
 连接上钱包后的初始页面如下：<br>
