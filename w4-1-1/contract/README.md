@@ -1,1 +1,1 @@
-## contract路径中为本合约的hardhat工程文件
+## 这是合约的hardhat工程文件
