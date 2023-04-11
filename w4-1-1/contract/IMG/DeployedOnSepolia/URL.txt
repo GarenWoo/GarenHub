@@ -1,0 +1,8 @@
+ERC20TokenGTT:
+https://sepolia.etherscan.io/address/0xE8193b6DEe2384533da99957Bb5bd38f3126B7a3
+
+Vault:
+https://sepolia.etherscan.io/address/0x545C9f39874f069b735de7e83a84efdF73320DE3
+
+账户1（ERC20TokenGTT部署者）：0x545383E5263D519B086C4e37964413e1bA17D756
+账户2：0x41042630a3c4b91e946dE7A36871E950C9F9cFf4
