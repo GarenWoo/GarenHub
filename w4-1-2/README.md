@@ -16,7 +16,8 @@ NFTMarket: https://goerli.etherscan.io/address/0x6315e37AaE5D61F5a2e0dAe3423B46B
    NFT(Garen's Collection, #2):<br>
    metadata: ipfs://QmYZTLMirkutn3WmGT7vcCaCMaScYXrdhh5jng3z9tqYdz<br>
    https://testnets.opensea.io/assets/goerli/0x892802283c1ec35f5327065edcd7db3d6ad17628/2<br>
-   ![w4-1-2](./IMG/1_mintNFT.png)
+   ![w4-1-2](./IMG/1_mintNFT.png)<br>
+   ![w4-1-2](./IMG/3_NFT_OpenSea.png)
 
 
 
