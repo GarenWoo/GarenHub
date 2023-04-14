@@ -110,7 +110,16 @@ contract NFTMarket is IERC721Receiver {
 ## 3. ERC721Token合约与NFTMarket合约的编译、部署、测试、验证<br>
 
 由于 w3-1-1 的ERC20 token是在 sepolia 网上部署的，而 OpenSea Testnet中看不到 sepolia 网的 NFT，故本次作业先将 ERC20token 合约部署在 Goerli 网上。
-（ERC20 token 的合约地址需要在 NFTMarket 合约中作为参数使用，因而先部署 ERC20Token）
+（ERC20 token 的合约地址需要在 NFTMarket 合约中作为参数使用，因而先部署 ERC20Token）<br>
+ERC20TokenGTT:
+https://goerli.etherscan.io/address/0xf29da8b25afa9db70542416e948597a0be57ec23#code
+
+ERC721Token: 
+https://goerli.etherscan.io/address/0x892802283c1ec35f5327065edcd7db3d6ad17628#code
+
+NFTMarket: 
+https://goerli.etherscan.io/address/0x6315e37AaE5D61F5a2e0dAe3423B46BF1bE9677b#
+
 ![w3-1-2](./IMG/1_ERC20_Deploy&Verification_Goerli.png)<br><br>
 
 ## 部署、验证： ERC721Token 和 NFTMarket
