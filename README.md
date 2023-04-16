@@ -1,5 +1,4 @@
-## 登链区块链集训营第二期作业库
-
+# 登链区块链集训营第二期作业库
 ## 作业情况：<br>
 - [第 4 周第 1 课作业-第 2 个作业](./w4-1-2/README.md)
 - [第 4 周第 1 课作业-第 1 个作业](./w4-1-1/README.md)
@@ -18,7 +17,7 @@ Welcome teaching assistants to check my assignments. <br><br>
 ### 登链区块链集训营第二期 URL
 https://learnblockchain.cn/course/28
 
-### 代码
+### 老师的代码库
 - main： https://github.com/xilibi2003/training_camp_2
 - answer： https://github.com/xilibi2003/training_camp_2/tree/answer
 
