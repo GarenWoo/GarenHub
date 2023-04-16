@@ -1,3 +1,5 @@
+# 第 3 周第 1 课作业-第 1 个作业
+![w3-1-1](./IMG/Assignment_w3-1-1.png)
 ## 1. 发行一个 ERC20Token (用自己的名字) ，发行 100000 token<br>
 
 ERC20Token: Garen Test Token(GTT), network = sepolia<br>
