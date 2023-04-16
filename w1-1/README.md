@@ -1,3 +1,5 @@
+# 第 4 周第 1 课作业
+![w4-1-2](./IMG/Assignment_w1-1.png)
 ## 1. 安装Metamask并创建钱包<br>
 address = 0xf7ce0e442f3e4f849472cb04ffa9802d4ec16ea9<br>
 
