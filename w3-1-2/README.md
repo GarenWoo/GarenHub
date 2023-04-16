@@ -120,7 +120,7 @@ ERC721Token:
 https://goerli.etherscan.io/address/0x892802283c1ec35f5327065edcd7db3d6ad17628#code
 
 NFTMarket: 
-https://goerli.etherscan.io/address/0x18aA6535AF138cf549E4846C09d1c47E5e804835#code
+https://goerli.etherscan.io/address/0x18aA6535AF138cf549E4846C09d1c47E5e804835#code<br>
 ( NFTMarket 合约已于 2023.4.16 更新：修复了一些 bug 并增强了一些功能。)
 
 ![w3-1-2](./IMG/1_ERC20_Deploy&Verification_Goerli.png)<br><br>
