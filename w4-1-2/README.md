@@ -65,14 +65,19 @@ async function main() {
 main()
    ```
    
-   共计包含 4 笔 ERC721 Token 的转账交易：<br>
+   共计包含 4 笔 ERC721 Token 的转账交易：<br><br>
    (1) 账户地址1 调用 NFTMarket 合约中的 list 函数，产生了一笔转账交易：from 账户地址1, to NFTMarket, tokenId = 2 ；<br>
+   Transaction URL: https://goerli.etherscan.io/tx/0xc0498796b809ae7b2ff4b93516a2f72ef148d838304599fef35b3df059e1f999<br>
    (2) 账户地址2 调用 NFTMarket 合约中的 buy 函数，产生了一笔转账交易：from NFTMarket, to 账户地址2, tokenId = 2 ；<br>
+   Transaction URL: https://goerli.etherscan.io/tx/0x97b22fc2e9c8b877553191a405ecc98d50310ad63a7eb190188277cc3e21ce3a<br>
    (3) 账户地址2 调用 NFTMarket 合约中的 list 函数，产生了一笔转账交易：from 账户地址2, to NFTMarket, tokenId = 2 ；<br>
+   Transaction URL: https://goerli.etherscan.io/tx/0xc4dd27a10a247b4301b16ac6f798481f515df2ab53d56fe8fd320fb32a6ed821<br>
    (4) 账户地址1 调用 NFTMarket 合约中的 buy 函数，产生了一笔转账交易：from NFTMarket, to 账户地址1, tokenId = 2 ；<br>
+   Transaction URL: https://goerli.etherscan.io/tx/0xa1ab3ca6924698f9ff4663c2f7e7ee6799ae40711768a9e9dedf31f5d0c7233f<br>
+   在终端依次分别显示如下：<br>
    ![w4-1-2](./IMG/3a_listenEvent_ERC721Transfer_part1.png)<br>
    ![w4-1-2](./IMG/3b_listenEvent_ERC721Transfer_part2.png)<br>
 
 
 
------------------------------ 正在完成中，预计 4.14 完成该作业 -----------------------------
+--------------------------------------------------- END ---------------------------------------------------
