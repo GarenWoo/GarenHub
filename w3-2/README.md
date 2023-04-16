@@ -1,9 +1,5 @@
-# 第三周第二次课作业
-
-部署一个可升级的 ERC20 Token<br>
-- 第一版本<br>
-- 第二版本，加入方法: function transferWithCallback(address recipient, uint256amount) external returns (bool)<br>
-
+# 第 3 周第 2 课作业
+![w3-2](./IMG/Assignment_w3-2.png)
 ## 1. 第一版本
 
 ### 1.1 合约文件 TestToken.sol：
