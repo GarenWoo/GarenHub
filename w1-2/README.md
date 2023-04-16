@@ -1,5 +1,5 @@
 # 第 1 周第 2 课作业
-![w1-1](./IMG/Assignment_w1-2.png)
+![w1-2](./IMG/Assignment_w1-2.png)
 ## 1. 修改Counter合约，仅部署者可以调用count()<br>
 
 增设了一个modifier函数修改器，用以规定调用者权限only owner<br>
