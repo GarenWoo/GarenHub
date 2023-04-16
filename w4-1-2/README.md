@@ -4,11 +4,12 @@
 ## 前置条件与工作
    之前已完成 w3-1-2 作业：已部署的三个合约 ERC20 token(GTT), ERC721 token 和 NFTMarket。<br>
    
-ERC20TokenGTT: https://goerli.etherscan.io/address/0xf29da8b25afa9db70542416e948597a0be57ec23#code
+ERC20TokenGTT: https://goerli.etherscan.io/address/0xf29da8b25afa9db70542416e948597a0be57ec23
 
-ERC721Token: https://goerli.etherscan.io/address/0x892802283c1ec35f5327065edcd7db3d6ad17628#code
+ERC721Token: https://goerli.etherscan.io/address/0x892802283c1ec35f5327065edcd7db3d6ad17628
 
-NFTMarket: https://goerli.etherscan.io/address/0x6315e37AaE5D61F5a2e0dAe3423B46BF1bE9677b#
+NFTMarket: https://goerli.etherscan.io/address/0x18aA6535AF138cf549E4846C09d1c47E5e804835<br>
+(注：该合约与 w3-1-2 中初始的 NFTMarket 合约不同，已修正了一些 bug 并增强了一些功能，且在 w3-1-2 中同步更新此版合约）
 
 在ERC721 token转账前：<br>
 1). 让购买者账户拥有足够金额的 ERC20 token(GTT)，用于调用 NFTMarmket 合约购买 ERC721 token。<br>
