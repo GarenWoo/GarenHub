@@ -118,7 +118,8 @@ ERC721Token:
 https://goerli.etherscan.io/address/0x892802283c1ec35f5327065edcd7db3d6ad17628#code
 
 NFTMarket: 
-https://goerli.etherscan.io/address/0x6315e37AaE5D61F5a2e0dAe3423B46BF1bE9677b#
+https://goerli.etherscan.io/address/0x18aA6535AF138cf549E4846C09d1c47E5e804835#code
+( NFTMarket 合约已于 2023.4.16 更新：修复了一些 bug 并增强了一些功能。)
 
 ![w3-1-2](./IMG/1_ERC20_Deploy&Verification_Goerli.png)<br><br>
 
@@ -126,14 +127,16 @@ https://goerli.etherscan.io/address/0x6315e37AaE5D61F5a2e0dAe3423B46BF1bE9677b#
 ERC721Token: Garen's Collection(GCN), network = Goerli<br>
 Json IPFS URL: ipfs://QmSz3n347TdH8nNEXfTrjB3oApUfzN3FGX8gUniGV21C4v
 <br><br>
-![w3-1-2](./IMG/2_ERC721Token_Deploy_Goerli.png)<br><br>
-![w3-1-2](./IMG/3_Verification_ERC721Token_Goerli.png)<br><br>
-![w3-1-2](./IMG/4_NFTMarket_Deploy_Goerli_updated20230416.png)<br><br>
-![w3-1-2](./IMG/5_Verification_NFTMarket_Goerli_updated20230416.png)<br><br>
+ERC721Token:<br>
+![w3-1-2](./IMG/2_ERC721Token_Deploy_Goerli.png)<br>
+![w3-1-2](./IMG/3_Verification_ERC721Token_Goerli.png)<br>
 ![w3-1-2](./IMG/ERC721Token_GoerliScan.png)<br><br>
+NFTMarket:<br>
+![w3-1-2](./IMG/4_NFTMarket_Deploy_Goerli_updated20230416.png)<br>
+![w3-1-2](./IMG/5_Verification_NFTMarket_Goerli_updated20230416.png)<br>
 ![w3-1-2](./IMG/NFTMarket_GoerliScan_updated20230416.png)<br><br>
 测试：<br>
-![w3-1-2](./IMG/IMG_Test.png)
+![w3-1-2](./IMG/IMG_Test.png)<br>
 
 ## 4. 在 OpenSea 上查看铸造的NFT
 Json IPFS URL: ipfs://QmSz3n347TdH8nNEXfTrjB3oApUfzN3FGX8gUniGV21C4v<br><br>
