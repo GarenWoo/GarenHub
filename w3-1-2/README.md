@@ -1,3 +1,5 @@
+# 第 3 周第 1 课作业-第 2 个作业
+![w3-1-2](./IMG/Assignment_w3-1-2.png)
 ## 1. 编写一个 ERC721 合约 发⾏ ERC721 Token<br>
 
   ERC721Token: Garen's Collection(GCN)<br><br>
