@@ -74,10 +74,11 @@ main()
    Transaction URL: https://goerli.etherscan.io/tx/0xc4dd27a10a247b4301b16ac6f798481f515df2ab53d56fe8fd320fb32a6ed821<br>
    (4) 账户地址1 调用 NFTMarket 合约中的 buy 函数，产生了一笔转账交易：from NFTMarket, to 账户地址1, tokenId = 2 ；<br>
    Transaction URL: https://goerli.etherscan.io/tx/0xa1ab3ca6924698f9ff4663c2f7e7ee6799ae40711768a9e9dedf31f5d0c7233f<br>
+   
    在终端依次分别显示如下：<br>
    ![w4-1-2](./IMG/3a_listenEvent_ERC721Transfer_part1.png)<br>
    ![w4-1-2](./IMG/3b_listenEvent_ERC721Transfer_part2.png)<br>
 
 
 
---------------------------------------------------- END ---------------------------------------------------
+----------------------------------------------------------------- END -----------------------------------------------------------------
