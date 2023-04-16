@@ -34,25 +34,29 @@ contract ERC721Token is ERC721URIStorage {
 ```
 ## 2. 编写⼀个合约：使⽤⾃⼰发⾏的ERC20 Token 来买卖NFT
 
+（代码更新于2023.04.16）
  ```solidity
+//SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
 import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 
 contract NFTMarket is IERC721Receiver {
-    mapping(uint => uint) public price;
-    mapping(address => uint) public income;
-    mapping(uint => address) public realOwner;
+    mapping(uint => uint) private price;
+    mapping(address => uint) private balance;
     address public immutable tokenAddr;
     address public immutable nftAddr;
+    mapping(uint => bool) public onSale;
     error InvalidPrice();
     error NotOwner();
     error insufficientBidding();
     error NotOnSale();
-    error withdrawalExceedIncome();
+    error withdrawalExceedBalance();
 
     constructor(address _tokenAddr, address _nftAddr) {
         tokenAddr = _tokenAddr;
@@ -63,48 +67,56 @@ contract NFTMarket is IERC721Receiver {
       return this.onERC721Received.selector;
     }
 
+    // Before invoking this function, need to approve this contract as an operator of the corresponding tokenId!
     function list(uint _tokenId, uint _price) external {
         if (msg.sender != IERC721(nftAddr).ownerOf(_tokenId)) revert NotOwner();
         if (_price == 0) revert InvalidPrice();
-        // in order to realize the function of delist, set a mapping to record the real owner.
-        // if not, the real owner cannot be captured by ownerOf() after the completion of list.
-        realOwner[_tokenId] = msg.sender;
-        IERC721(nftAddr).safeTransferFrom(msg.sender, address(this), _tokenId, "list success");
+        require(onSale[_tokenId] == false, "This NFT is already listed");
+        IERC721(nftAddr).safeTransferFrom(msg.sender, address(this), _tokenId, "NFT is listed successfully");
+        IERC721(nftAddr).approve(msg.sender, _tokenId);
         price[_tokenId] = _price;
+        onSale[_tokenId] = true;
     }
 
     function delist(uint256 _tokenId) external {
-        // only the real owner can delist the NFT.
-        if (msg.sender != realOwner[_tokenId]) revert NotOwner();    
-        if (IERC721(nftAddr).ownerOf(_tokenId) != address(this)) revert NotOnSale(); 
-        IERC721(nftAddr).safeTransferFrom(address(this), msg.sender, _tokenId, "delist success");
-        delete price[_tokenId];  
+        // The original owner, is the owner of the NFT when it was not listed.
+        require(IERC721(nftAddr).getApproved(_tokenId) == msg.sender, "Not the original owner or Not on sale");
+        if (onSale[_tokenId] != true) revert NotOnSale(); 
+        IERC721(nftAddr).safeTransferFrom(address(this), msg.sender, _tokenId, "NFT is delisted successfully");
+        delete price[_tokenId];
+        onSale[_tokenId] = false;   
     }
 
+    // Before invoking this function, need to approve this contract with enough allowance!
     function buy(uint _tokenId, uint _bid) external {
-        if (IERC721(nftAddr).ownerOf(_tokenId) != address(this)) revert NotOnSale(); 
+        if (onSale[_tokenId] != true) revert NotOnSale(); 
         if (_bid < price[_tokenId]) revert insufficientBidding();
+        require(msg.sender != IERC721(nftAddr).getApproved(_tokenId), "You are already the owner. No need to buy!");
         bool _success = IERC20(tokenAddr).transferFrom(msg.sender, address(this), _bid);
-        realOwner[_tokenId] = msg.sender;          // update the real owner when NFT was bought.
-        if (_success) {
-            income[IERC721(nftAddr).ownerOf(_tokenId)] += _bid;
-        }
+        require(_success,"Buying is fail or allowance is insufficient");
+        balance[IERC721(nftAddr).getApproved(_tokenId)] += _bid;
         IERC721(nftAddr).transferFrom(address(this), msg.sender, _tokenId);
-
+        delete price[_tokenId];
+        onSale[_tokenId] = false;
     }
 
     function getPrice(uint _tokenId) external view returns (uint) {
         return price[_tokenId];
     }
 
-    function getIncome() external view returns (uint) {
-        return income[msg.sender];
+    function getBalance() external view returns (uint) {
+        return balance[msg.sender];
     }
 
-    function withdrawIncome(uint _value) external {
-        if (_value > income[msg.sender]) revert withdrawalExceedIncome();
-        IERC20(tokenAddr).transfer(msg.sender, _value);
-        income[msg.sender] -= _value;
+    function getOwner(uint _tokenId) external view returns (address) {
+        return IERC721(nftAddr).ownerOf(_tokenId);
+    }
+
+    function withdrawBalance(uint _value) external {
+        if (_value > balance[msg.sender]) revert withdrawalExceedBalance();
+        bool _success = IERC20(tokenAddr).transfer(msg.sender, _value);
+        require(_success,"withdrawal failed");
+        balance[msg.sender] -= _value;
     }
 }
 ```
