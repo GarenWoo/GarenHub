@@ -1,6 +1,8 @@
 # 第 4 周第 2 课作业-第 2 个作业
 ![w4-2-2](./IMG/Assignment_w4-2-2.png)
 ## 1. DUNE 创建新的 Query 并写入 SQL 查询条件
+Query URL: https://dune.com/queries/2383455
+
 ```SQL
 SELECT
   minute as dt,
