@@ -23,6 +23,6 @@ USDC 过去30天的价格变化：
 
 ![w4-2-2](./IMG/2_DUNE_QueryResult.png)
 
-DUNE 图表 URL：
+DUNE Dashboard URL：
 
 https://dune.com/garenwoo/usdc-price-in-the-last-30-days
