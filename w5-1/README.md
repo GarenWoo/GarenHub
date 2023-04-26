@@ -2,7 +2,7 @@
 ![w5-1](./IMG/Assignment_w5-1.png)
 ## 前置条件: 已部署的合约地址（Mumbai测试网）与账户地址
 
-1.ERC20Token<br>
+1. ERC20Token<br>
 https://mumbai.polygonscan.com/address/0xea20f1e10167098746a168034e7e7094735decc2#code<br>
 
 2. SelfishVault（以下均称 Vault 合约）<br>
@@ -52,40 +52,58 @@ contract AutoCollectUpKeep is AutomationCompatible {
 }
 ```
 
-账户1地址：0x334e4C7Fd7B7805707fD915099C07957ED0C4d4C<br>
-账户2地址：0x545383E5263D519B086C4e37964413e1bA17D756<br>
-SelfishVault owner：0xd9741be0139122D03FDB7de30bD2ADf6AE720d74<br>
+账户1地址：0x334e4C7Fd7B7805707fD915099C07957ED0C4d4C
+
+账户2地址：0x545383E5263D519B086C4e37964413e1bA17D756
+
+SelfishVault owner：0xd9741be0139122D03FDB7de30bD2ADf6AE720d74
+
 
 ## 1. 账户1 向 Vault 合约 存入 99 GTT
 ![w5-1](./IMG/1a_Approve_acc1ToVault_99GTT.png)<br>
 
+
 ![w5-1](./IMG/1b_Approve_acc1ToVault_99GTT_Tx.png)<br>
+
 URL: https://mumbai.polygonscan.com/tx/0x48d39192e99b3d5cfaca7d7655986b4a5d9742bf9bcbec4b25f34918d2c1d9be<br>
 
 ![w5-1](./IMG/2a_Deposite_acc1_99GTT.png)<br>
 
+
 ![w5-1](./IMG/2b_Deposit_acc1_99GTT_Tx.png)<br>
+
 URL: https://mumbai.polygonscan.com/tx/0xa84944a6e25963d6b356112b1484b20150f5e43d2d4d8c92515f0ae11c9eabc2<br>
 
-此时 Vault 合约中的存款总额为 99 GTT。<br>
+## 2. 检查 Chainlink Automation Upkeep 自动调用记录
+此时 Vault 合约中的存款总额为 99 GTT。
+
 查看 Chainlink Automation Upkeep 是否有发起自动调用：
 
 ![w5-1](./IMG/3_upkeep_history_afterTranfer99GTT.png)
 
+
 存款小于 100 GTT，未执行自动调用，正确。<br>
 
-## 2. 账户2 向 Vault 合约 存入 2 GTT
+
+## 3. 账户2 向 Vault 合约 存入 2 GTT
 ![w5-1](./IMG/4a_Approve_acc2ToVault_2GTT.png)<br>
 
+
 ![w5-1](./IMG/4b_Approve_acc2ToVault_2GTT_Tx.png)<br>
+
 URL: https://mumbai.polygonscan.com/tx/0xbb239f96c2b4d6a124b008f3ede1ef559950138393dfa1c34eac13c72dde7058<br>
 
 ![w5-1](./IMG/5a_Deposite_acc2_2GTT.png)<br>
 
+
 ![w5-1](./IMG/5b_Deposit_acc2_2GTT_Tx.png)<br>
+
 URL: https://mumbai.polygonscan.com/tx/0xb03883b12bde0447cafc66b366c5d7817d2390f983587786b8cdb5d580b710d2<br>
 
-此时 Vault 合约中的存款总额为 101 GTT。<br>
+
+## 4. 检查 Chainlink Automation Upkeep 自动调用记录
+此时 Vault 合约中的存款总额为 101 GTT。
+
 再次查看 Chainlink Automation Upkeep 是否有发起自动调用：
 
 ![w5-1](./IMG/6a_upkeep_history_afterTranfer102GTT.png)
@@ -94,5 +112,6 @@ URL: https://mumbai.polygonscan.com/tx/0xb03883b12bde0447cafc66b366c5d7817d2390f
 
 存款总额为 101 GTT 大于 100 GTT，已执行自动调用，给 owner 转账 101 /2 = 50.5 GTT，正确。<br>
 
--------------------------------------------  END  -------------------------------------------
+
+-----------------------------------------------------------  END  -----------------------------------------------------------
 
