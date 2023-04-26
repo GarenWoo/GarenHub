@@ -1,0 +1,33 @@
+合约地址（mumbai测试网络）：
+1.ERC20Token
+https://mumbai.polygonscan.com/address/0xea20f1e10167098746a168034e7e7094735decc2#code
+
+2. SelfishVault
+https://mumbai.polygonscan.com/address/0x6381e570debf4fffa3d52f53cde20074b3dffa94#code
+
+3. AutoCollectUpKeep
+https://mumbai.polygonscan.com/address/0xbCB1A7cEd47d9dB2381c6d5F8ea30356Ff4F68cB#code
+
+账户1地址：0x334e4C7Fd7B7805707fD915099C07957ED0C4d4C
+账户2地址：0x545383E5263D519B086C4e37964413e1bA17D756
+SelfishVault owner：0xd9741be0139122D03FDB7de30bD2ADf6AE720d74
+
+1.
+账户1 在 ERC20 Token(GTT) 合约中给 Vault 合约 approve 99个 GTT 的 allowance 。
+https://mumbai.polygonscan.com/tx/0x48d39192e99b3d5cfaca7d7655986b4a5d9742bf9bcbec4b25f34918d2c1d9be
+
+2.
+账户1 在 Vault 合约存入 99个 GTT 。
+https://mumbai.polygonscan.com/tx/0xa84944a6e25963d6b356112b1484b20150f5e43d2d4d8c92515f0ae11c9eabc2
+
+3.
+查询 Chainlink Automation，未执行自动调用。
+
+4.
+账户2 在 ERC20 Token(GTT) 合约中给 Vault 合约 approve 2个 GTT 的 allowance 。
+https://mumbai.polygonscan.com/tx/0xbb239f96c2b4d6a124b008f3ede1ef559950138393dfa1c34eac13c72dde7058
+
+5.
+账户2 在 Vault 合约存入 2个 GTT 。
+https://mumbai.polygonscan.com/tx/0xb03883b12bde0447cafc66b366c5d7817d2390f983587786b8cdb5d580b710d2
+
