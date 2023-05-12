@@ -22,7 +22,7 @@ https://sepolia.etherscan.io/address/0xA502Bb69b8dB87Ba09C71B323aa7b9d17F0966B5#
 6. MyTokenMarket:<br>
 https://sepolia.etherscan.io/address/0x1b8f9fc33A70c54613a72D35BAF9B30bCD6327EB#code<br>
 
-## MytokenMarket合约
+## MyTokenMarket合约
 ```solidity
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -171,7 +171,11 @@ main().catch((error) => {
     process.exitCode = 1;
 });
 ```
+
+## 添加流动性与购买token
+添加 tokenA-tokenB 流动性，使用 tokenA 购买 tokenB。
 ![w5-2](./IMG/addLiquidity&buyToken.png)
+
 
 
 -----------------------------------------------------------  Not finished  -----------------------------------------------------------
