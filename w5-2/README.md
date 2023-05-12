@@ -1,5 +1,5 @@
 # 第 5 周第 2 课作业
-![w5-1](./IMG/Assignment_w5-2.png)
+![w5-2](./IMG/Assignment_w5-2.png)
 ## 已部署的合约
 
 合约部署网络：Sepolia
@@ -23,7 +23,7 @@ https://sepolia.etherscan.io/address/0xA502Bb69b8dB87Ba09C71B323aa7b9d17F0966B5#
 https://sepolia.etherscan.io/address/0x1b8f9fc33A70c54613a72D35BAF9B30bCD6327EB#code<br>
 
 
-![w5-1](./IMG/addLiquidity&buyToken.png)
+![w5-2](./IMG/addLiquidity&buyToken.png)
 
 
 -----------------------------------------------------------  Not finished  -----------------------------------------------------------
