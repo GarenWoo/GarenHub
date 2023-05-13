@@ -96,27 +96,27 @@ CallOptToken: https://sepolia.etherscan.io/address/0x30eCBE79Dbd4E789276F75278af
 ## 4. 流程展示
 说明：
 
-(1) 期权合约与标的的比例为1:1，期权token 的 price 为 4000 USDC 。
+a. 期权合约与标的的比例为1:1，期权token 的 price 为 4000 USDC 。
 
-(2) 由于部署在 Sepolia 测试网的期权合约的 during 为 1 day。因此，对期权合约的销毁方法改至 Remix 上演示。<br><br>
+b. 由于部署在 Sepolia 测试网的期权合约的 during 为 1 day。因此，对期权合约的销毁方法改至 Remix 上演示。<br><br>
 
 
-1. Owner注入ETH获取期权token：https://sepolia.etherscan.io/tx/0x5752d82a454f071816f4a837dcc2620d225dfe988a8f5fb8d6bdd09c0ca88cec
+(1) Owner注入ETH获取期权token：https://sepolia.etherscan.io/tx/0x5752d82a454f071816f4a837dcc2620d225dfe988a8f5fb8d6bdd09c0ca88cec
 
 ![w7-1](./IMG/1a_mintCOPTwithETH.png)<br>
 
 
-2. USDC合约为期权合约授权足量的allowance：https://sepolia.etherscan.io/tx/0xa3bfaa337b36d1bd38d81d4f8b8b0eff2bef970c0248500332001cf9f9bc036b
+(2) USDC合约为期权合约授权足量的allowance：https://sepolia.etherscan.io/tx/0xa3bfaa337b36d1bd38d81d4f8b8b0eff2bef970c0248500332001cf9f9bc036b
 
 ![w7-1](./IMG/2a_USDCApproveCallOptToken.png)<br>
 
 
-3. 行权，销毁一定数量的期权token，以预设价格买入ETH：https://sepolia.etherscan.io/tx/0x0c6f653f4ea8dc542f8f05cfe16cf4822e35afe8450fd5af0d1927df7e43a97e
+(3) 行权，销毁一定数量的期权token，以预设价格买入ETH：https://sepolia.etherscan.io/tx/0x0c6f653f4ea8dc542f8f05cfe16cf4822e35afe8450fd5af0d1927df7e43a97e
 
 ![w7-1](./IMG/3a_Settlement.png)<br>
 
 ![w7-1](./IMG/3b_totalSupplyOfCOPT_AfterSettlement.png)<br>
 
-![w7-1](./IMG/4_Check_USDCBalanceOfCallOptTokenContract.png)<br>
+![w7-1](./IMG/4a_Check_USDCBalanceOfCallOptTokenContract.png)<br>
 
 ![w7-1](./IMG/5_BurnAll.png)
