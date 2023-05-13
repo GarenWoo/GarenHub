@@ -98,7 +98,7 @@ CallOptToken: https://sepolia.etherscan.io/address/0x30eCBE79Dbd4E789276F75278af
 
 a. 期权合约与标的的比例为1:1，期权token 的 price 为 4000 USDC 。
 
-b. 由于部署在 Sepolia 测试网的期权合约的 during 为 1 day。因此，对期权合约的销毁方法改至 Remix 上演示。<br><br>
+b. 由于部署在 Sepolia 测试网的期权合约的 during 为 1 day，时间较久。因此，对期权合约的销毁方法改至 Remix 上演示。<br><br>
 
 
 (1) Owner注入ETH获取期权token：https://sepolia.etherscan.io/tx/0x5752d82a454f071816f4a837dcc2620d225dfe988a8f5fb8d6bdd09c0ca88cec
