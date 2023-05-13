@@ -93,7 +93,12 @@ USDC: https://sepolia.etherscan.io/address/0x6206B71cB87381ebAf06d3C4707BE4D99D9
 
 CallOptToken: https://sepolia.etherscan.io/address/0x30eCBE79Dbd4E789276F75278af20101C263B707#code
 
-## 4. 流程展示（使用remix）
+## 4. 流程展示
+说明：
+
+1. 期权合约与标的的比例为1:1，期权token 的 price 为 4000 USDC 。
+
+2. 由于部署在 Sepolia 测试网的期权合约的 during 为 1 day。因此，对期权合约的销毁方法改至 Remix 上演示。
 
 ![w7-1](./IMG/1a_mintCOPTwithETH.png)
 
@@ -104,7 +109,5 @@ CallOptToken: https://sepolia.etherscan.io/address/0x30eCBE79Dbd4E789276F75278af
 ![w7-1](./IMG/3b_totalSupplyOfCOPT_AfterSettlement.png)
 
 ![w7-1](./IMG/4_Check_USDCBalanceOfCallOptTokenContract.png)
-
-说明：由于部署在 Sepolia 测试网的期权合约的 during 为 1 day。因此，对期权合约的销毁方法改至 Remix 上演示。
 
 ![w7-1](./IMG/5_BurnAll.png)
