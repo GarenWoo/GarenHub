@@ -95,12 +95,16 @@ CallOptToken: https://sepolia.etherscan.io/address/0x30eCBE79Dbd4E789276F75278af
 
 ## 4. 流程展示（使用remix）
 
-![w7-1](./IMG/1_mintCOPTwithETH.png)
+![w7-1](./IMG/1a_mintCOPTwithETH.png)
 
-![w7-1](./IMG/2_USDCApproveCallOptToken.png)
+![w7-1](./IMG/2a_USDCApproveCallOptToken.png)
 
-![w7-1](./IMG/3_Settlement.png)
+![w7-1](./IMG/3a_Settlement.png)
+
+![w7-1](./IMG/3b_totalSupplyOfCOPT_AfterSettlement.png)
 
 ![w7-1](./IMG/4_Check_USDCBalanceOfCallOptTokenContract.png)
+
+说明：由于部署在 Sepolia 测试网的期权合约的 during 为 1 day。因此，对期权合约的销毁方法改至 Remix 上演示。
 
 ![w7-1](./IMG/5_BurnAll.png)
