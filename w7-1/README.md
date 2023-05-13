@@ -2,7 +2,7 @@
 ![w7-1](./IMG/Assignment_w7-1.png)
 
 ## 1. 合约逻辑
-(1) 向期权合约中存入 ETH（onlyOwner），并获得期权token。
+(1) 向期权合约中存入 ETH（onlyOwner），并获得期权token （期权可以拿去上架交易）。
 
 (2) 在settlementTime过了之后且位于during的时间段内，可以行权。
 
@@ -94,6 +94,13 @@ USDC: https://sepolia.etherscan.io/address/0x6206B71cB87381ebAf06d3C4707BE4D99D9
 CallOptToken: https://sepolia.etherscan.io/address/0x30eCBE79Dbd4E789276F75278af20101C263B707#code
 
 ## 4. 流程展示（使用remix）
-![w7-1](./IMG/1_w7-1.png)
-![w7-1](./IMG/2_w7-1.png)
-![w7-1](./IMG/3_w7-1.png)
+
+![w7-1](./IMG/1_mintCOPTwithETH.png)
+
+![w7-1](./IMG/2_USDCApproveCallOptToken.png)
+
+![w7-1](./IMG/3_Settlement.png)
+
+![w7-1](./IMG/4_Check_USDCBalanceOfCallOptTokenContract.png)
+
+![w7-1](./IMG/5_BurnAll.png)
