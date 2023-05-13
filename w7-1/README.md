@@ -1,5 +1,10 @@
 # 第 7 周第 1 课作业
 ![w7-1](./IMG/Assignment_w7-1.png)
+部署合约（Sepolia测试网络）：
+
+USDC: https://sepolia.etherscan.io/address/0x6206B71cB87381ebAf06d3C4707BE4D99D942896#code
+
+CallOptToken: https://sepolia.etherscan.io/address/0x30eCBE79Dbd4E789276F75278af20101C263B707#code
 
 流程：
 1. 向期权合约中存入 ETH（onlyOwner），并获得期权token。
