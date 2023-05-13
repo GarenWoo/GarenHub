@@ -1,2 +1,12 @@
 USDC: 0x6206B71cB87381ebAf06d3C4707BE4D99D942896
 CallOptToken: 0x30eCBE79Dbd4E789276F75278af20101C263B707
+
+
+1. Owner注入ETH获取期权token：
+https://sepolia.etherscan.io/tx/0x5752d82a454f071816f4a837dcc2620d225dfe988a8f5fb8d6bdd09c0ca88cec
+
+2. USDC合约为期权合约授权足量的allowance：
+https://sepolia.etherscan.io/tx/0xa3bfaa337b36d1bd38d81d4f8b8b0eff2bef970c0248500332001cf9f9bc036b
+
+3. 行权：销毁一定数量的期权token，以预设价格买入ETH
+https://sepolia.etherscan.io/tx/0x0c6f653f4ea8dc542f8f05cfe16cf4822e35afe8450fd5af0d1927df7e43a97e
