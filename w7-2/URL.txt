@@ -1,0 +1,7 @@
+DeflationToken: 0x41770e3b29a6273da2Df8Cd54a7c662549b030ED
+
+第一次rebase：https://sepolia.etherscan.io/tx/0x8945c77fc3c2a86d3d32d572ff8c69f5c8aedbb2ab08f9597699f8ace172fbdf
+
+转账：https://sepolia.etherscan.io/tx/0x6f10c5cccc2b3c28c219278b8ee42d5dec3f4493cd69f1df26e85083b2cea4e1
+
+第二次rebase：https://sepolia.etherscan.io/tx/0x84e9a71be57b7a5b4c1b1b9adf6707099fb72beeed378e87d548c09deaf28e63
