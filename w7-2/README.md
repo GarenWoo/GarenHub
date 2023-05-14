@@ -5,7 +5,7 @@
 
 部署网络：Sepolia 测试网络
 
-合约地址：https://sepolia.etherscan.io/address/0x41770e3b29a6273da2Df8Cd54a7c662549b030ED#code
+合约地址：0x41770e3b29a6273da2Df8Cd54a7c662549b030ED
 
 ```solidity
 //SPDX-License-Identifier: Unlicense
